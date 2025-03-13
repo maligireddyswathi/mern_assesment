@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Server is running successfully!");
+    res.send("Server for translation is running successfully!");
 });
 
 app.listen(5000, () => {
